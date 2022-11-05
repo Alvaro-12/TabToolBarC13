@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScrollViewApp">
+
+    <ScrollView
+
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bananas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bananas" />
+
+            <ImageView
+                android:id="@+id/cerezas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cerezas" />
+
+            <ImageView
+                android:id="@+id/frambuesas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/frambuesas" />
+
+            <ImageView
+                android:id="@+id/fresas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fresas" />
+
+            <ImageView
+                android:id="@+id/kiwis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kiwis" />
+
+            <ImageView
+                android:id="@+id/mangos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mangos" />
+
+            <ImageView
+                android:id="@+id/manzanas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/manzanas" />
+
+            <ImageView
+                android:id="@+id/melon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/melon" />
+
+            <ImageView
+                android:id="@+id/naranjas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/naranjas" />
+
+            <ImageView
+                android:id="@+id/pera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pera" />
+
+            <ImageView
+                android:id="@+id/pina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pina" />
+
+            <ImageView
+                android:id="@+id/sandia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sandia" />
+
+            <ImageView
+                android:id="@+id/uvas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/uvas" />
+
+            <ImageView
+                android:id="@+id/zarzamora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/zarzamora" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,15 +8,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 
 
-class vista_Fragmento : Fragment() {
-
-
+class VistaFragmento : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        arguments?.let {
 
-        }
     }
 
     override fun onCreateView(
@@ -29,15 +25,14 @@ class vista_Fragmento : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        arguments?.takeIf { it.containsKey(ARG_OBJECT)}?.apply {
+        arguments?.takeIf { it.containsKey(ARG_OBJECT) }?.apply {
             val tvMensaje:TextView = view.findViewById(R.id.tv_Mensaje)
-            tvMensaje.text="Vista Fragmento " + getInt(ARG_OBJECT).toString()
-        }
+            tvMensaje.text = "Vista Fragmento " + getInt(ARG_OBJECT).toString()
 
+        }
     }
 
     companion object {
-
-        private const val ARG_OBJECT = "OBJECT"
+        private const val ARG_OBJECT = "object"
     }
 }

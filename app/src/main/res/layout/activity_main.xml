@@ -6,22 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:id="@+id/pv_VistaPager">
-
+    android:orientation="vertical">
 
     <com.google.android.material.tabs.TabLayout
-        android:id="@+id/vistaTablero"
+        android:id="@+id/tl_VistaTablero"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-    
+
     <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/vp_vista"
+        android:id="@+id/vp_VistaPager"
         android:layout_width="match_parent"
-        android:layout_height="8dp"
-        android:layout_weight="1"
-        />
-
-
- 
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
 
 </LinearLayout>
